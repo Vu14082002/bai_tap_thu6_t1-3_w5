@@ -13,6 +13,7 @@ export const styles = StyleSheet.create({
         flex: 5,
     },
     flex6: {
+        justifyContent: "space-between",
         flex: 6,
     },
     // GROUP TOP///////////////////////
@@ -89,5 +90,51 @@ export const styles = StyleSheet.create({
         fontWeight: "700",
         lineHeight: 45,
         color: "#FFFFFF",
+    },
+    flex6_top_title: {
+        fontSize: 12,
+        fontWeight: "700",
+        lineHeight: 51,
+    },
+    flex6_top_link: {
+        fontSize: 12,
+        fontWeight: 700,
+        lineHeight: 51,
+        color: "#134FEC",
+    },
+    flex6_top_text: {
+        fontSize: 18,
+        fontWeight: 700,
+        lineHeight: 51,
+    },
+
+    flex6_top_number: {
+        fontSize: 18,
+        fontWeight: 700,
+        lineHeight: 51,
+        color: "#EE0D0D",
+    },
+    flex6_bottom: {
+        height: 120,
+        backgroundColor: "#ffff",
+        padding: 10,
+    },
+    flex6_bottom_text: {
+        fontSize: 18,
+        fontWeight: 700,
+        lineHeight: 51,
+        color: "#808080",
+    },
+    flex6_bottom_btn: {
+        backgroundColor: "#E53935",
+        borderRadius: 2,
+        height: 45,
+    },
+    flex6_bottom_btnText: {
+        fontSize: 20,
+        fontWeight: 700,
+        lineHeight: 45,
+        color: "#FFFFFF",
+        textAlign: "center",
     },
 });

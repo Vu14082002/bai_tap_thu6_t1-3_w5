@@ -68,7 +68,51 @@ export const Layout04 = function () {
                     </View>
                 </View>
             </View>
-            <View style={[styles.flex6]}></View>
+            <View style={[styles.flex6]}>
+                <View>
+                    <View
+                        style={{
+                            backgroundColor: "#ffff",
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                            paddingHorizontal: 15,
+                            marginVertical: 15,
+                        }}
+                    >
+                        <Text style={[styles.flex6_top_title]}>
+                            Bạn có phiếu quà tặng Tiki/Got it/ Urbox?
+                        </Text>
+                        <Text style={[styles.flex6_top_link]}>Nhập tại đây?</Text>
+                    </View>
+                    <View
+                        style={{
+                            backgroundColor: "#ffff",
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                            paddingHorizontal: 15,
+                        }}
+                    >
+                        <Text style={[styles.flex6_top_text]}>Tạm tính</Text>
+                        <Text style={[styles.flex6_top_number]}>141.800 đ</Text>
+                    </View>
+                </View>
+                <View style={[styles.flex6_bottom]}>
+                    <View
+                        style={{
+                            backgroundColor: "#ffff",
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                            paddingHorizontal: 15,
+                        }}
+                    >
+                        <Text style={[styles.flex6_bottom_text]}>Thành tiền</Text>
+                        <Text style={[styles.flex6_top_number]}>141.800 đ</Text>
+                    </View>
+                    <Pressable style={styles.flex6_bottom_btn}>
+                        <Text style={styles.flex6_bottom_btnText}>TIẾN HÀNH ĐẶT HÀNG</Text>
+                    </Pressable>
+                </View>
+            </View>
         </SafeAreaView>
     );
 };
